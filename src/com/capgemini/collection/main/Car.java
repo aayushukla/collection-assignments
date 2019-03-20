@@ -1,8 +1,6 @@
 package com.capgemini.collection.main;
 
-import java.lang.Comparable;
-
-public class Car implements Comparable<Car> {
+public class Car  {
 	
 	@Override
 	public int hashCode() {
@@ -62,15 +60,6 @@ public class Car implements Comparable<Car> {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@Override
-	public int compareTo(Car obj)
-	{
-		if(this.make==obj.make && this.model==obj.model)
-		{
-			return 0;
-		}
-		else
-			return 1;
-	}
+	
 
 }

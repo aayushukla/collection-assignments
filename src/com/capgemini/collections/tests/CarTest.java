@@ -31,7 +31,7 @@ public class CarTest {
 	@Test
 	public void testForEquality()
 	{
-		assertEquals(0,tesla1.compareTo(tesla));
+		assertEquals(0,tesla1.getMake().compareTo(tesla.getMake()));
 	}
 	
 	@Test
